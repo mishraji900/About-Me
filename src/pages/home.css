@@ -1,0 +1,18 @@
+.button:hover {
+    color:#ffff
+}
+.button::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: #923Ae4;
+    transform: translateX(100%);
+    z-index: -1;
+    transition: all 0.3s ease-out;
+}
+.button:hover:before {
+    transform: translateX(0);
+}
+.rotate{
+    transform: rotate(-15deg);
+}
