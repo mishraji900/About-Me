@@ -52,7 +52,7 @@ const ProjectDetails = ({
                   <div className="flex-1 flex flex-col gap-2">
                     <img
                       src={data.image}
-                      alt="img"
+                      alt="detailimg"
                       className="w-96 ml-auto mr-auto  rounded-3xl"
                     />
                     <div className="my-5">

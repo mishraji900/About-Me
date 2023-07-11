@@ -20,7 +20,7 @@ const Project = ({ data }) => {
           {data.name}
         </h1>
         <div className="lg:relative block overflow-hidden">
-          <img src={data.image} alt="image" />
+          <img src={data.image} alt="dataimage" />
           <div className="absolute bg-zinc-800/80 lg:flex items-center justify-center -top-1/2 h-full w-full group-hover:top-0 opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out hidden">
             <h1 className="text-[#ffff] text-2xl font-semibold">{data.name}</h1>
           </div>
