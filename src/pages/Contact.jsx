@@ -1,9 +1,10 @@
 import { BiEnvelope, BiPhone, BiPaperPlane } from "react-icons/bi";
 import emailjs from "@emailjs/browser";
-import { useRef } from "react";
+import { useRef, useState,useEffect } from "react";
 
 const Contact = () => {
   const form = useRef();
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -11,10 +12,22 @@ const Contact = () => {
     emailjs.sendForm('service_im27gy8', 'template_90slicj', form.current, 'bkob1m1AvNFSsUQbU')
       .then((result) => {
           console.log(result.text);
+          setIsFormSubmitted(true);
+        form.current.reset();
       }, (error) => {
           console.log(error.text);
       });
   };
+  useEffect(() => {
+    let timer;
+    if (isFormSubmitted) {
+      timer = setTimeout(() => {
+        setIsFormSubmitted(false);
+      }, 10000);
+    }
+
+    return () => clearTimeout(timer);
+  }, [isFormSubmitted]);
 
   return (
     <main className="bg-zinc-900 p-10">
@@ -105,6 +118,11 @@ const Contact = () => {
               </span>
             </button>
           </form>
+          {isFormSubmitted && (
+            <p className="text-green-500 text-lg font-semibold p-2 text-center ">
+              Form submitted successfully!
+            </p>
+          )}
         </div>
       </div>
     </main>

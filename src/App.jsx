@@ -1,6 +1,6 @@
 
 import Navbar from './components/Navbar/Navbar'
-import {Home,About,Contact,Portfolio} from './pages/'
+import {Home,About,Contact,Portfolio} from './pages'
 import { BrowserRouter,Routes,Route } from 'react-router-dom'
 
 function App() {
