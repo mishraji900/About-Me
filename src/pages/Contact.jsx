@@ -30,7 +30,7 @@ const Contact = () => {
   }, [isFormSubmitted]);
 
   return (
-    <main className="bg-zinc-900 p-10">
+    <main className="bg-zinc-900 p-10 min-h-screen">
       <h1 className="text-white lg:text-4xl text-2xl font-bold mb-[70px] text-center">
         Get In <span className="text-[#923AE4]">Touch</span>
       </h1>

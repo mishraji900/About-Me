@@ -8,7 +8,7 @@ import './home.css'
 
 const Home = () => {
   return (
-    <section className="py-20 lg:grid grid-cols-[4.32fr,7.86fr] gap-y-[70px] sm:items-center h-full flex flex-col bg-zinc-900">
+    <section className="py-20 lg:grid grid-cols-[4.32fr,7.86fr] gap-y-[70px] sm:items-center min-h-screen flex flex-col bg-zinc-900">
       <div className="px-10">
       <img src={Profile} alt="" className="lg:h-full h-64 lg:w-full w-64  ml-auto mr-auto object-cover lg:rounded-3xl rounded-full shadow-lg lg:shadow-gray-300 shadow-[#923AE4] lg:relative z-10" />
       </div>
