@@ -168,6 +168,24 @@ export const resume = [
     title: "Maharshi Patanjali Vidya Mandir",
     desc: "In my Class 12 experience, I learned leadership and teamwork through playing volleyball and competing at the state level. It taught me the value of collaboration, communication, and perseverance. Alongside my sports achievements, I secured an impressive 83% in PCM subjects, including physical education. Balancing academics and sports improved my time management skills. Overall, this transformative period shaped me into a well-rounded individual ready to excel in various areas of life.",
   },
+  {
+    id: 5,
+    category: "experience",
+    icon: <BiSolidBriefcase />,
+    year: "July/2023-August/2023",
+    title: "BharatIntern",
+    job: "BharatIntern (Internship)",
+    desc: `During internship, I focused on web development, specifically React-Js. I honed my skills in these frameworks, gaining expertise in modern web development technologies.`,
+  },
+  {
+    id: 2,
+    category: "experience",
+    icon: <BiSolidBriefcase />,
+    year: "August/2023-Present",
+    title: "CodeClause",
+    job: "CodeClause (Internship)",
+    desc: `During internship, I focused on web development, specifically React-Js. I honed my skills in these frameworks, gaining expertise in modern web development technologies.`,
+  },
 ];
 
 export const skills = [
