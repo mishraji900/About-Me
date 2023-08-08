@@ -5,6 +5,9 @@ import Skills from "../components/Skills";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import Resume from "../components/Resume";
 
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+
 const About = () => {
   return (
     <main className="lg:p-[70px] p-10 bg-zinc-900">
@@ -21,6 +24,16 @@ const About = () => {
             <ul className="info__list gap-y-4 lg:grid grid-cols-[2fr,1fr] text-white">
               <Info />
             </ul>
+            <p className="leading-8 my-[16px]  lg:text-base text-gray-300 lg:font-normal font-medium flex gap-x-12">
+            <a href="https://github.com/mishraji900" target="blank" className=" flex">
+              <GitHubIcon />
+              <span className="lg:flex hidden">GitHub</span>
+            </a>
+            <a href="https://www.linkedin.com/in/mayank-mishra-353392274/" target="blank" className="flex">
+              <LinkedInIcon />
+              <span className="lg:flex hidden">Linkedin</span>
+            </a>
+          </p>
             <a
               href="https://drive.google.com/file/d/1gFo776cnmhoHS3lPUqWwzVYDNTVBtA25/view"
               target="blank"

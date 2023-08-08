@@ -1,6 +1,9 @@
 import { BiEnvelope, BiPhone, BiPaperPlane } from "react-icons/bi";
 import emailjs from "@emailjs/browser";
-import { useRef, useState,useEffect } from "react";
+import { useRef, useState, useEffect } from "react";
+
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 const Contact = () => {
   const form = useRef();
@@ -11,11 +14,11 @@ const Contact = () => {
 
     emailjs.sendForm('service_im27gy8', 'template_90slicj', form.current, 'bkob1m1AvNFSsUQbU')
       .then((result) => {
-          console.log(result.text);
-          setIsFormSubmitted(true);
+        console.log(result.text);
+        setIsFormSubmitted(true);
         form.current.reset();
       }, (error) => {
-          console.log(error.text);
+        console.log(error.text);
       });
   };
   useEffect(() => {
@@ -64,6 +67,16 @@ const Contact = () => {
                   <span itemProp="telephone">+91 7524004100</span>
                 </div>
               </div>
+              <div className="leading-8 my-[16px] lg:text-base text-gray-300 lg:font-normal font-medium flex gap-x-12">
+                  <a href="https://github.com/mishraji900" target="blank" className=" flex">
+                    <GitHubIcon />
+                    <span className="lg:flex hidden">GitHub</span>
+                  </a>
+                  <a href="https://www.linkedin.com/in/mayank-mishra-353392274/" target="blank" className="flex">
+                    <LinkedInIcon />
+                    <span className="lg:flex hidden">Linkedin</span>
+                  </a>
+                </div>
             </div>
           </div>
         </section>
