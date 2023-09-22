@@ -21,7 +21,7 @@ const Home = () => {
 
             <Typewriter
               options={{
-                strings: ["A Web Designer", "A Front-end Developer"],
+                strings: ["A Web Designer & Developer", "A Software Developer"],
                 autoStart: true,
                 loop: true,
                 cursor: ''
@@ -30,10 +30,10 @@ const Home = () => {
 
           </h1>
           <p className="leading-8 my-[16px] mx-[32px] text-base text-gray-300 lg:font-normal font-medium">
-            I'm an India based passionate frontend developer and designer,
-            driven by curiosity and a thirst for knowledge. Creating remarkable
-            user experiences through innovative design and mastery of the latest
-            technologies. Let's embark on this journey of exploration and bring
+            As an India-based Front-End Developer, Web Designer, and Software Developer, I'm dedicated
+            to excelling in HTML, CSS, Tailwind CSS, and JavaScript for web and front-end development. I
+            have a strong command of C++ and Java for software development. My passion for technology
+            is fueled by curiosity and a thirst for knowledge. Let's embark on this journey of exploration and bring
             impactful digital experiences to life.
           </p>
           <p className="leading-8 my-[16px] mx-[32px] lg:text-base text-gray-300 lg:font-normal font-medium flex gap-x-12">

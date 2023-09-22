@@ -13,6 +13,8 @@ import NextJs from "./nextjs.png";
 import Php from "./php.png";
 import TailCss from "./tailwindcss.png";
 import Material from "./material_ui.svg";
+import c from "./c.png";
+import java from "./java.png";
 
 export {
   blog,
@@ -30,4 +32,6 @@ export {
   Php,
   TailCss,
   Material,
+  c,
+  java
 };

@@ -24,6 +24,8 @@ import {
   Php,
   TailCss,
   Material,
+  java,
+  c
 } from "./assets";
 
 export const links = [
@@ -181,7 +183,7 @@ export const resume = [
     id: 2,
     category: "experience",
     icon: <BiSolidBriefcase />,
-    year: "August/2023-Present",
+    year: "August/2023-September/2023",
     title: "CodeClause",
     job: "CodeClause (Internship)",
     desc: `During internship, I focused on web development, specifically React-Js. I honed my skills in these frameworks, gaining expertise in modern web development technologies.`,
@@ -191,63 +193,69 @@ export const resume = [
 export const skills = [
   {
     id: 1,
+    title: "C++",
+    percentage: "60",
+    img: c,
+  },
+  {
+    id: 2,
+    title: "Java",
+    percentage: "80",
+    img: java,
+  },
+  {
+    id: 3,
     title: "Html",
     percentage: "89",
     img: Html,
   },
-
   {
-    id: 2,
+    id: 4,
     title: "Javascript",
     percentage: "89",
     img: Js,
   },
-
   {
-    id: 3,
+    id: 5,
     title: "Css",
     percentage: "85",
     img: Css,
   },
-
   {
-    id: 4,
-    title: "Php",
-    percentage: "30",
-    img: Php,
-  },
-
-  {
-    id: 5,
+    id: 6,
     title: "React-Js",
     percentage: "80",
     img: React,
   },
-
   {
-    id: 6,
+    id: 7,
     title: "Next-Js",
     percentage: "70",
     img: NextJs,
   },
-
   {
-    id: 7,
+    id: 8,
     title: "Vite",
     percentage: "65",
     img: Vitejs,
   },
   {
-    id: 8,
+    id: 9,
     title: "Tailwind Css",
     percentage: "70",
     img: TailCss,
   },
   {
-    id: 9,
+    id: 10,
     title: "Material Ui",
     percentage: "70",
     img: Material,
+  },
+  {
+    id: 11,
+    title: "Php",
+    percentage: "30",
+    img: Php,
   },
 ];
 
@@ -268,7 +276,7 @@ export const projectdetails = [
       "I designed this restraunt add website by being inspired with KegsNBarral website",
     urlto: "https://gericht-c326e.web.app/",
     image: hotel,
-    date: "15/July/2023",
+    date: "30/September/2022",
   },
   {
     id: 3,
@@ -277,7 +285,7 @@ export const projectdetails = [
       "I designed this blog website from scratch using react js, tailwind and material ui.I applied login functionality using auth0.",
     urlto: "https://bean-page.web.app/",
     image: blog,
-    date: "15/July/2023",
+    date: "15/June/2023",
   },
   {
     id: 4,
@@ -286,7 +294,7 @@ export const projectdetails = [
       "I designed this tick-tock clone named VChat. i used Reactjs and sanity(in backend) for css i used tailwind. There is a server error due to the fact that I am not good in backend work.",
     urlto: "https://vchat-sage.vercel.app/?topic=codeing",
     image: vchat,
-    date: "15/July/2023",
+    date: "10/November/2023",
   },
   {
     id: 5,
@@ -295,7 +303,7 @@ export const projectdetails = [
       "I designed this information and add website for functionality of api and gpt 3 apis.",
     urlto: "https://gpt3-e9856.web.app/",
     image: GPT_3,
-    date: "15/July/2023",
+    date: "1/september/2023",
   },
   {
     id: 6,

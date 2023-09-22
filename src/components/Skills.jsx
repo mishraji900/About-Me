@@ -37,7 +37,7 @@ const Skills = () => {
               src={item.img}
               alt="item img"
               className={`w-10 rounded-full ${
-                item.id === 8 || item.id === 6 ? "bg-white" : "bg-transparent"
+                item.id === 7 || item.id === 9 ? "bg-white" : "bg-transparent"
               }`}
             />
           </h1>
